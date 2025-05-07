@@ -1,4 +1,4 @@
-package com.k2sworks.k2ssensors.temperature.processing;
+package com.k2sworks.k2ssensors.temperature.processing.common;
 
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.impl.TimeBasedEpochGenerator;
@@ -13,7 +13,7 @@ public class IdGenerator {
     private IdGenerator() {
     }
 
-    public static UUID generateTimeBaseUUID() {
+    public static UUID generateTimeBasedUUID() {
         return timeBasedEpochGenerator.generate();
     }
 }

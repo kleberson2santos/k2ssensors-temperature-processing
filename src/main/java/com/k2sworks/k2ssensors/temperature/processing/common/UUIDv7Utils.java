@@ -1,4 +1,4 @@
-package com.k2sworks.k2ssensors.temperature.processing;
+package com.k2sworks.k2ssensors.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
